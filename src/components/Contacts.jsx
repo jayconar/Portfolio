@@ -71,21 +71,21 @@ const Contact = () => {
                 <div className="info-icon"><FaEnvelope /></div>
                 <div className="info-content">
                   <h4>Email</h4>
-                  <a href="mailto:jay.conar@example.com">{myEmail}</a>
+                  <a href={`mailto:${myEmail}`}>{myEmail}</a>
                 </div>
               </div>
               <div className="info-item">
                 <div className="info-icon"><FaGithub /></div>
                 <div className="info-content">
                   <h4>GitHub</h4>
-                  <a href="https://github.com/yourusername">github.com/{github}</a>
+                  <a href={`https://github.com/${github}`}>github.com/{github}</a>
                 </div>
               </div>
               <div className="info-item">
                 <div className="info-icon"><FaInstagram /></div>
                 <div className="info-content">
                   <h4>Instagram</h4>
-                  <a href="https://instagram.com/yourusername">instagram.com/{instagram}</a>
+                  <a href={`https://instagram.com/${instagram}`}>instagram.com/{instagram}</a>
                 </div>
               </div>
             </div>
