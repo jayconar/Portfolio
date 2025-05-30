@@ -72,7 +72,7 @@ const Projects = () => {
             >
               <div className="image-container">
                 <img 
-                  src={`${process.env.PUBLIC_URL}${project.image}`} 
+                  src={project.image} 
                   alt={project.title} 
                   className="project-image"
                 />
