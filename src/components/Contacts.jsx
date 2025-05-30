@@ -78,14 +78,14 @@ const Contact = () => {
                 <div className="info-icon"><FaGithub /></div>
                 <div className="info-content">
                   <h4>GitHub</h4>
-                  <a href={`https://github.com/${github}`}>github.com/{github}</a>
+                  <a href={`https://github.com/${github}`} target="_blank" rel="noopener noreferrer">github.com/{github}</a>
                 </div>
               </div>
               <div className="info-item">
                 <div className="info-icon"><FaInstagram /></div>
                 <div className="info-content">
                   <h4>Instagram</h4>
-                  <a href={`https://instagram.com/${instagram}`}>instagram.com/{instagram}</a>
+                  <a href={`https://instagram.com/${instagram}`} target="_blank" rel="noopener noreferrer">instagram.com/{instagram}</a>
                 </div>
               </div>
             </div>
