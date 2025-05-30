@@ -1,0 +1,65 @@
+[
+    {
+      "id": 1,
+      "title": "BlackJack",
+      "description": "BlackJack Cards Game Application with Graphical User Interface.",
+      "tech": ["Python", "tkinter"],
+      "image": "/blackjack.jpg",
+      "demo": "https://github.com/jayconar/BlackJack/blob/ee32e7c4edb027e74552ed98de33aa0b521545eb/Screenshots/startup.png",
+      "code": "https://github.com/jayconar/BlackJack"
+    },
+    {
+      "id": 2,
+      "title": "Statistical Arbitrage Trader Bot",
+      "description": "Pairs Trading bot for trading Perpetual Futures Derivatives contracts in real time.",
+      "tech": ["Python", "pandas", "sklearn"],
+      "image": "/statarb.png",
+      "demo": "https://github.com/jayconar/Statistical-Arbitrage-Bot",
+      "code": "https://github.com/jayconar/Statistical-Arbitrage-Bot"
+    },
+    {
+      "id": 3,
+      "title": "Where in the World?",
+      "description": "A Geoguesser-type GUI Application with a never ending set of data",
+      "tech": ["Python", "tkinter"],
+      "image": "/geoguesser.png",
+      "demo": "https://github.com/jayconar/WhereintheWorld/blob/4d737cdafec3190f9b62b345905972fafe1d193e/Screenshots/City.png",
+      "code": "https://github.com/jayconar/WhereintheWorld"
+    },
+    {
+      "id": 4,
+      "title": "Orderblocks Trader Bot",
+      "description": "An automated trading bot that performs trades based on smart money concepts",
+      "tech": ["Python", "ccxt", "pandas", "Google Sheets"],
+      "image": "/Orderblocks.png",
+      "demo": "https://github.com/jayconar/Orderblock-trader",
+      "code": "https://github.com/jayconar/Orderblock-trader"
+    },
+    { 
+        "id": 5, 
+        "title": "Pomodoro Timer", 
+        "description": "Productivity Timer Alarm GUI Application",
+        "image": "/pomodoro.png",
+        "tech": ["Python", "GUI", "tkinter"],
+        "demo": "https://github.com/jayconar/Pomodoro_Timer/blob/a348dab7bac2b59ab63e617df6fafa52e32d13e0/screenshots/Startup.png",
+        "code": "https://github.com/jayconar/Pomodoro_Timer"
+    },
+    { 
+        "id": 6, 
+        "title": "Passwords Manager", 
+        "description": "Password Manager GUI Application with strong password generation functionality",
+        "image": "/password-manager.png",
+        "tech": ["Python", "tkinter"],
+        "demo": "https://github.com/jayconar/PasswordManager/blob/47cfb0edb4a1895d6e3c6c02bee4b72f0ff20882/Screenshots/Startup.png",
+        "code": "https://github.com/jayconar/PasswordManager"
+    },
+    { 
+        "id": 7, 
+        "title": "Quizler", 
+        "description": "Random Pop Quiz App with Scoring System",
+        "image": "/quiz.png",
+        "tech": ["Python", "Open Trivia API"],
+        "demo": "https://github.com/jayconar/quizler/blob/cccbde79e71d7cc51016bc83c0a004d1a1073992/screenshots/Startup.png",
+        "code": "https://github.com/jayconar/quizler"
+    }
+]
