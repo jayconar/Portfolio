@@ -19,13 +19,9 @@ function Navbar() {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
-  const handleReload = () => {
-    window.location.href ="/Portfolio/";
-  };
-
   return (
     <nav ref={navRef} className={isOpen ? 'active' : ''}>
-      <div className="logo" onClick={handleReload}>{name}</div>
+      <div className="logo">{name}</div>
       <button 
         className={`hamburger ${isOpen ? "active" : ""}`} 
         onClick={() => setIsOpen(!isOpen)}
