@@ -20,7 +20,7 @@ function Navbar() {
   }, []);
 
   const handleReload = () => {
-    window.location.href ="/";
+    window.location.reload();
   };
 
   return (
