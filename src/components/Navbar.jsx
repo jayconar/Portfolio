@@ -20,7 +20,7 @@ function Navbar() {
   }, []);
 
   const handleReload = () => {
-    window.location.reload();
+    window.location.href ="/Portfolio/";
   };
 
   return (
